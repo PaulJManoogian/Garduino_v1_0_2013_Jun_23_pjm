@@ -82,10 +82,10 @@ XivelyDatastream datastreams[] = {
 };
 
 // Finally, wrap the datastreams into a feed
-XivelyFeed feed(1479780420, datastreams, 5 /* number of datastreams */);
+XivelyFeed feed(111111111, datastreams, 5 /* number of datastreams */);
 
 // Your Xively key to let you upload data
-char xivelyKey[] = "uNVycARQ2qBbyRTHEYXpBhdbnHzpFGRKgt9KVGmpLeBj2yRv";
+char xivelyKey[] = "VerySpecialXivelyKey";
 
 // String for reading from client
 String request = String(100);
